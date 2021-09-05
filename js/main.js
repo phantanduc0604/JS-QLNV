@@ -133,7 +133,7 @@ function themNV() {
         console.table(nv);
 
         dsnv.themNV(nv);
-        console.log(dsnv.mangNV);
+        
 
         setLocalStotage();
 

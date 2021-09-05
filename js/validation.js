@@ -73,7 +73,7 @@ function Validation() {
     //Kiểm tra chức vụ
     this.checkDropdown = function (selID, spanID, message) {
         var optIndex = document.getElementById(selID).selectedIndex;
-        console.log(optIndex);
+        
         if (optIndex != 0) {
             //hop le
             document.getElementById(spanID).innerHTML = "";
