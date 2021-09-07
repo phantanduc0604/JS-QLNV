@@ -138,8 +138,10 @@ function themNV() {
         setLocalStotage();
 
         hienThiTable(dsnv.mangNV);
-
+         
+        document.getElementById("btnDong").click();
         resetForm();
+
     }
 }
 
@@ -186,6 +188,7 @@ function capnhapNV() {
     setLocalStotage();
 
     resetForm();
+    document.getElementById("btnDong").click();
 }
 
 function timkiemtheoLoai() {
